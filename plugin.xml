@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-4xlabs-gms-version" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>4xLabs GMS Version</name>
+    <description>Google Mobile Services library version sync for Android</description>
+    <repo>https://github.com/4xlabs/cordova-plugin-4xlabs-gms-version</repo>
+    <issue>https://github.com/4xlabs/cordova-plugin-4xlabs-gms-version/issues</issue>
+    <license>Apache 2.0</license>
+    <keywords>google,gms,google apis for android</keywords>
+
+    <engines>
+      <engine name="cordova-android" version=">=5.1.0" />
+    </engines>
+
+    <!-- android -->
+    <platform name="android">
+        <info>
+            4xlabs: Google APIs for Android v10.2.1, plugin v0.0.1-31/Mar/2017
+            com.google.android.gms:play-services-auth:10.2.1
+            com.google.android.gms:play-services-identity:10.2.1
+            com.google.android.gms:play-services-gcm:10.2.1
+            com.google.android.gms:play-services-location:10.2.1
+            com.google.android.gms:play-services-maps:10.2.1
+        </info>
+
+        <framework src="com.google.android.gms:play-services-auth:10.2.1" />
+        <framework src="com.google.android.gms:play-services-identity:10.2.1" />
+        <framework src="com.google.android.gms:play-services-gcm:10.2.1" />
+        <framework src="com.google.android.gms:play-services-location:10.2.1" />
+        <framework src="com.google.android.gms:play-services-maps:10.2.1" />
+
+    </platform>
+</plugin>
