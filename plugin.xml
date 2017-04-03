@@ -14,19 +14,19 @@
     <!-- android -->
     <platform name="android">
         <info>
-            4xlabs: Google APIs for Android v10.2.1, plugin v0.0.1-31/Mar/2017
-            com.google.android.gms:play-services-auth:10.2.1
-            com.google.android.gms:play-services-identity:10.2.1
-            com.google.android.gms:play-services-gcm:10.2.1
-            com.google.android.gms:play-services-location:10.2.1
-            com.google.android.gms:play-services-maps:10.2.1
+            4xlabs: Google APIs for Android v10.0.1, plugin v0.0.1-31/Mar/2017
+            com.google.android.gms:play-services-auth:10.0.1
+            com.google.android.gms:play-services-identity:10.0.1
+            com.google.android.gms:play-services-gcm:10.0.1
+            com.google.android.gms:play-services-location:10.0.1
+            com.google.android.gms:play-services-maps:10.0.1
         </info>
 
-        <framework src="com.google.android.gms:play-services-auth:10.2.1" />
-        <framework src="com.google.android.gms:play-services-identity:10.2.1" />
-        <framework src="com.google.android.gms:play-services-gcm:10.2.1" />
-        <framework src="com.google.android.gms:play-services-location:10.2.1" />
-        <framework src="com.google.android.gms:play-services-maps:10.2.1" />
+        <framework src="com.google.android.gms:play-services-auth:10.0.1" />
+        <framework src="com.google.android.gms:play-services-identity:10.0.1" />
+        <framework src="com.google.android.gms:play-services-gcm:10.0.1" />
+        <framework src="com.google.android.gms:play-services-location:10.0.1" />
+        <framework src="com.google.android.gms:play-services-maps:10.0.1" />
 
     </platform>
 </plugin>
